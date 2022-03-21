@@ -1,46 +1,94 @@
-h1 {
-color: #005677;
-background-color: #c4c4c4;
-font-family: times new roman;
-font-weight: 700;
-font-style: normal;
-font-size: 25px;
-line-height: 29.64px;
-letter-spacing: 10px;
-text-transform: uppercase;
+#presentacion{
+    background-image: url(../images/developer.png);
+    background-size: 300px, auto;
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
 }
 
-h2 {
-    background-color: #c4c4c4;
-    color: #005677;
-    letter-spacing: 2px;
+h1{
+    background-color: black ;
+    color: rgb(66, 135, 245);
+    text-align: center;
+    font-family: poppins;
     text-transform: uppercase;
+    font-size: 75px;
 }
 
-.datos-personales {
-    font-family: times new roman;
+img {
+    width: 400px;
+    height: 400px;
+}
+
+a {
+    text-align: center;
+    color: rgb(66, 135, 245);
+    font-family: poppins;
+    font-size: 75px;
+}
+
+.contacto {
+    background-color: black;
+    position: relative;
+}
+
+.instagram {
+ position: absolute;
+ right: 55%;
+}
+
+.github {
+    position: absolute;
+    left: 55%;
+    
+}
+
+.titulosCV {
+    color: rgb(66, 135, 245);
+    background-color: black;
+    background-position: left;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: poppins;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Datos {
+    font-family: poppins;
+    font-size: 23px;
     font-weight: bold;
     font-style: italic;
 }
 
-.datos-personales2 {
-    font-family: times new roman;
+.Datos2 {
+    font-family: poppins;
+    font-size: 23px;
 }
 
-.años {
-    font-weight: bold;
+section{
+    background-color: lightgray;
 }
 
-.Contacto {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
+.volver {
+    color: rgb(66, 135, 245);
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    left: 10%;
+
+     
 }
 
+.botonvolver {
+    position: relative;
+    top: 50px;
+    left: 1750px;
+    bottom: 20px;
+    right: 500px;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border: solid, 500px, rgb(66, 135, 245);
 
-footer {
-    background-color: #005677;
 }
-
