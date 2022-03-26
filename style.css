@@ -1,157 +1,148 @@
-body{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 1000px;
-    font-family: roboto;
+body {
+    width: 950px;
+
 }
 
 header {
+    background-color: #222222;
+    height: 100px;
     display: flex;
-    justify-content: stretch;
-    flex-wrap: wrap;
-    height: 120px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
-.descuento {
-    background-color: #1CD1B0;
+.logoPizza { 
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
-    width: 100%;
-    height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Menu {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
-.heroes {
-    background-color: #00669f;
+ul.Menu.header {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 200;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    flex-grow: 1;
-    margin: 0px;
+    justify-content: space-evenly;
 }
 
-.principal {
+li {
+    margin: 7px;
+}
+
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 700px;
 }
 
-.batman {
-     display: flex;
-     flex-direction: column;
-     align-items: center ;
-     height: 500px;
-     width: 300px;
-     margin: 0px;
+.podio {
+    background-color: white;
+
 }
 
-.batman-header, .batman-header2 {
-    background-image: url(images/baticueva.png);
-    background-position: center;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+.envio {
+    font-family: roboto;
+    font-weight: bolder;
+    font-size: 24px;
+    color: red;
 }
 
-.batman-imagen {
-    position: ABSOLUTE;
-    bottom: 63%;
-    height: 10px
+.grande {
+    width: a;
 }
-
-.texto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #F3F3F3;
-}
-
-.BotonVerMas {
-    background-color: #00669F;
-    width: 100px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-a {
+.comprando {
     color: white;
-    margin: 10px;
-    text-align: center;
-    margin-top: 10px;
 }
 
-.harley {
+.delivery {
+    background-image: url(images/delivery.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 1%;
+    width: 50%;
+    height: 300px;
     display: flex;
-     flex-direction: column;
-     align-items: center ;
-     height: 500px;
-     width: 300px;
-     margin: 0px;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 30px 10px;
 }
 
-.harley-header {
-    background-image: url(images/fondo-harley.png);
-    background-position: center;
-    height: 200px;
+.Podio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+    margin: 30px 10px;
+    flex-wrap: wrap;
+    }
+
+.PodioPizza {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: red;
+    top: 30px;
     width: 100%;
-}
-
-.harley-imagen {
-    position: ABSOLUTE;
-    bottom: 63%;
-    height: 10px
-}
-
-.batman2 {
     display: flex;
-     flex-direction: column;
-     align-items: center ;
-     height: 500px;
-     width: 300px;
-     margin: 0px;
-    }
-
-i {
-        position: absolute;
-        z-index: 1;
-        color: red;
-        margin: 8px
-    }
-
-.nombresbatman {
-        text-transform: uppercase;
-
+    justify-content: center;
 }
 
-h2 {
-    font-size: 30px;
-    font-weight: 400;
+ol {
+    font-family: roboto;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+span {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
-H1 > p {
-    font-weight: 800;
-    font-size: 30PX;
-    margin: 10px;
+.PizzaCayendo { 
+    display: flex;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+ul{
+    font-family: roboto;
+    font-weight: bold;
 }
 
 footer {
+    background-color: #222222;
+    height: 150px;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    background-color: #00669F;
-    height: 40px;
+}
+
+.MenuFooter { 
+    display: flex;
+    flex-direction: column;
     color: white;
+    font-family: roboto;
     font-size: 15px;
     font-weight: 200;
+    justify-content: space-around
 }
+
