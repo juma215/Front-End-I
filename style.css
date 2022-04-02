@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 10px;
+    align-items: center;
 }
 
 .TextoBannerNegro {
@@ -17,7 +18,7 @@ body {
 }
 
 .bannerNaranja {
-    background-color: orange;
+    background-color: #F0A83E;
     height: 90px;
     display: flex;
     justify-content: space-between;
@@ -35,6 +36,8 @@ body {
     justify-content: space-evenly;
     margin-right: 40px;
     color: white;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 li {
@@ -55,18 +58,21 @@ flex-wrap: wrap;
 
 .placer {
     background-color: white;
-    height: 40px;
+    height: 43px;
     width: 310px;
     font-size: 25px;
     font-weight: 400;
     border-radius: 5px;
     margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .comederos {
-    background-color: orange;
+    background-color:#F0A83E;
     color: white;
-    height: 30px;
+    height: 35px;
     width: 130px;
     font-size: 15px;
     border-radius: 5px;
@@ -99,6 +105,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .huella {
@@ -108,7 +115,7 @@ main {
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 600;
     color: #3C2313;
     font-size: 40px;
 }
@@ -146,8 +153,9 @@ h1 {
 h2 {
     color: #3C2313;
     text-align: center;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .datos {
@@ -169,6 +177,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .boton {
@@ -191,4 +201,129 @@ h2 {
 .boton.envio {
     background-color: #F0A83E;
     
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.suscripcion {
+    background-color: #F0A83E;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suscribite {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Emailsuscripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correo {
+    background-color: white;
+    font-size: 8px;
+    color: lightgrey;
+    border-radius: 15px;
+    height: 40px;
+    width: 250px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boton-suscripcion {
+    background-color: #3C2313;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner-marron {
+    background-color: #3C2313;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datos-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2px;
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.location, .telefono, .email {
+    display: flex;
+    justify-content: space-evenly;
+    width: 240px;
+    height: 100px;
+    margin: 15px, 30px;
+}
+
+.iconosFooter {
+    height: 60px;
+    width: 60px;
+    margin: 15px, 20px;
+}
+
+.datos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.titulodatos {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.datos2 {
+    color: grey;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.logo-footer {
+    margin-right: 40px;
+}
+
+.banner-negro {
+    background-color: black;
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
 }
